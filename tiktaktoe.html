@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tik Tak Toe</title>
+    <link href="style.css" rel="stylesheet">    
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Tik Tak Toe</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="gameContainer">
+        <div class="box bT bL" id="box1"><span class="boxText"></span></div>
+        <div class="box bT" id="box2"><span class="boxText"></span></div>
+        <div class="box bT bR" id="box3"><span class="boxText"></span></div>
+        <div class="box bL" id="box4"><span class="boxText"></span></div>
+        <div class="box" id="box5"><span class="boxText"></span></div>
+        <div class="box bR" id="box6"><span class="boxText"></span></div>
+        <div class="box bB bL" id="box7"><span class="boxText"></span></div>
+        <div class="box bB" id="box8"><span class="boxText"></span></div>
+        <div class="box bB bR" id="box9"><span class="boxText"></span></div>
+      </div>
+      <div class="gameInfo">
+        <span id="welcomeText" style="font-size: 4vw;">Welcome in Tik Tak Toe</span><br><br>
+        <span class="turn">Click on the box to start </span><br />
+        <img class="winImg" src="WinGif.gif" alt="win Img" /><br />
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+    <script src="function.js"></script>
+  </body>
+</html>

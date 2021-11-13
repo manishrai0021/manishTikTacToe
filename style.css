@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  nav {
+    background-color: #81ebae;
+    border-bottom: 1px solid rgb(175, 175, 175);
+  }
+  nav ul {
+    padding: 10px;
+  }
+  nav ul li {
+    font-size: 40px;
+  }
+  .container {
+    /* background-color: aquamarine; */ 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .gameContainer {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(3, 12vw);
+    grid-template-rows: repeat(3, 12vw);
+    margin-left: 20px;
+  }
+  .box {
+    border: 1px solid black;
+    font-size: 3vw;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box:hover {
+    background-color: rgb(216, 213, 213);
+  }
+  .gameInfo {
+    margin: 0 3vw;
+    /* background-color: aqua; */
+  }
+  #welcomeText
+  {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #148d47;
+  }
+  .gameInfo span {
+    font-family: sans-serif;
+    font-size: 3vw;
+  }
+  img {
+    width: 0vw;
+    transition: width 1s ease-in-out;
+  }
+  button {
+    background-color: #81ebae;
+    font-size: 3vw;
+    font-family: sans-serif;
+    width: 16vw;
+    padding: 0.5vw;
+    border: 1px solid rgb(167, 163, 163);
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #40f38b;
+  }
+  .bT {
+    border-top: 0;
+  }
+  .bB {
+    border-bottom: 0;
+  }
+  .bR {
+    border-right: 0;
+  }
+  .bL {
+    border-left: 0;
+  }
+
+@media screen and (max-width: 1030px)
+{
+    .container
+    {
+      flex-direction: column;
+      align-items: center;
+    }
+    .gameContainer
+    {
+        grid-template-columns: repeat(3, 20vw);
+        grid-template-rows: repeat(3, 20vw);
+    }
+    .gameInfo
+    {
+      margin-top: 20px;
+      padding: 20px;
+    }
+    #welcomeText
+    {
+        font-size: 6.5vw !important;
+    }
+    .turn
+    {
+        font-size: 5vw !important;
+    }
+    #restart
+    {
+        width: 22vw;
+        font-size: 5vw;
+    }
+}
