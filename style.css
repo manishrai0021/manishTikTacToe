@@ -7,10 +7,18 @@
     border-bottom: 1px solid rgb(175, 175, 175);
   }
   nav ul {
+    position: relative;
     padding: 10px;
   }
   nav ul li {
     font-size: 40px;
+  }
+  #creator
+  {
+    font-size: medium;
+    position: absolute;
+    right: 5%;
+    top: 40%;
   }
   .container {
     /* background-color: aquamarine; */ 
