@@ -13,13 +13,6 @@
   nav ul li {
     font-size: 40px;
   }
-  #creator
-  {
-    font-size: medium;
-    position: absolute;
-    right: 5%;
-    top: 40%;
-  }
   .container {
     /* background-color: aquamarine; */ 
     display: flex;
